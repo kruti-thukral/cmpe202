@@ -1,22 +1,21 @@
 
 /**
- * Write a description of class QuarterGumballMachine here.
+ * Below class is a type of gumball machine which accepts only 
+ * quarters and ejects a gumball for every quarter inserted
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @kruti thukral
+ * @1.0
  */
 public class QuarterGumballMachine extends GumballMachine
 {
      public QuarterGumballMachine( int size )
     {
-        // initialise instance variables
         super(size);
     }
 
     public void insertQuarter(int coin)
     {
         super.insertQuarter(coin);
-       
     }
     
     public void turnCrank()

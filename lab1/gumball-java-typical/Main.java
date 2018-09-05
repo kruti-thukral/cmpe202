@@ -30,6 +30,8 @@ public class Main {
         gumballMachine.insertQuarter( 25 );
         gumballMachine.turnCrank();
         gumballMachine.turnCrank();
+        gumballMachine.insertQuarter( 25 );
+        gumballMachine.turnCrank();
         
         gumballMachine = new MixedGumballMachine(5);
         gumballMachine.insertQuarter( 25 );
@@ -39,6 +41,8 @@ public class Main {
         gumballMachine.insertQuarter( 25 );
         gumballMachine.insertQuarter( 1 );
         gumballMachine.turnCrank();
+        gumballMachine.turnCrank();
+        gumballMachine.insertQuarter( 25 );
         gumballMachine.turnCrank();
     }
 }
