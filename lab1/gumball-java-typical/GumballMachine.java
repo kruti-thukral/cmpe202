@@ -2,7 +2,7 @@
 public class GumballMachine
 {
 
-    private int num_gumballs;
+    protected int num_gumballs;
     private boolean has_quarter;
 
     public GumballMachine( int size )
