@@ -1,53 +1,17 @@
 
 /**
- * Below class is a type of gumball machine which accepts only 
- * quarters and ejects a gumball for every 50 cents inserted
+ * Below class is an abstract class for a gumball machine which ejects a gumball for every 50 cents 
  *
- * @kruti thukral
- * @1.0
+ * @Kruti Thukral
  */
-public class HalfDollarGumballmachine extends GumballMachine
+abstract class HalfDollarGumballMachine extends GumballMachine
 {
-    private int sum = 0; // variable that keeps track of the amount inserted in the machine
-    public HalfDollarGumballmachine( int size )
+   public HalfDollarGumballMachine( int size )
     {
-        
         super(size); // call base class constructor for basic initialisation
-        System.out.println("Creating Half Dollar Gumball Machine. Accepts only quarters");
     }
 
-    public void insertQuarter(int coin)
-    {
-       if ( coin == 25 ) {
-            this.sum = this.sum + coin; // Increment amount inserted accordingly
-            System.out.println( "Received a quarter" ) ;
-        }
-        else // Notify user when inserted coin is not a quarter
-            System.out.println( "Please insert a quarter. No other coins are accepted" ) ;
-       
-    }
-    
-    public void turnCrank()
-    {
-        System.out.println( "Crank turned" ) ;
-        boolean required_quarters_inserted =  (this.sum / 50 > 0?true:false);
-        
-        if ( required_quarters_inserted )
-    	{
-    		if ( num_gumballs > 0 )
-    		{
-    			num_gumballs-- ;// decrement gumball count
-    			this.sum = this.sum - 50;// Increment amount inserted accordingly
-    			System.out.println( "Thanks for inserting 50 cents.  Gumball Ejected!" ) ;
-    		}
-    		else // error when machine is out of gumballs
-    		{
-    			System.out.println( "No More Gumballs!  Sorry, can't return your quarter." ) ;
-    		}
-    	}
-    	else // error when required amount is not inserted for ejecting a gumball
-    	{
-    		System.out.println( "50 cents required for a gumball. You inserted " + sum + " cents" ) ;
-    	}    
+    public int getMinAmount() {
+        return 50;
     }
 }

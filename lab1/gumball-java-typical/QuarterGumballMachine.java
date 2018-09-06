@@ -8,18 +8,17 @@
  */
 public class QuarterGumballMachine extends GumballMachine
 {
-     public QuarterGumballMachine( int size )
+    public QuarterGumballMachine( int size )
     {
         super(size);
+        System.out.println("Creating Quarter Gumball Machine. Accepts only quarters");
     }
 
-    public void insertQuarter(int coin)
-    {
-        super.insertQuarter(coin);
+    public boolean validateCoin(int coin) {
+        return  ( coin == 25 ?true:false);
     }
     
-    public void turnCrank()
-    {
-        super.turnCrank();
+    public int getMinAmount() {
+        return 25;
     }
 }

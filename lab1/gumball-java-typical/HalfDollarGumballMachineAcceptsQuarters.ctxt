@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HalfDollarGumballMachineAcceptsQuarters
+comment0.text=\n\ Below\ class\ is\ a\ type\ of\ gumball\ machine\ which\ ejects\ a\ gumball\ for\ every\ 50\ cents\ inserted\n\n\ @kruti\ thukral\n\ @1.0\n
+comment1.params=size
+comment1.target=HalfDollarGumballMachineAcceptsQuarters(int)
+comment2.params=coin
+comment2.target=boolean\ validateCoin(int)
+numComments=3

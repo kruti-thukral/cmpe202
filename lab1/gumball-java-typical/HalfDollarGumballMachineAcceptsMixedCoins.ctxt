@@ -1,10 +1,8 @@
 #BlueJ class context
-comment0.target=MixedGumballMachine
+comment0.target=HalfDollarGumballMachineAcceptsMixedCoins
 comment0.text=\n\ Below\ class\ is\ a\ type\ of\ gumball\ machine\ which\ accepts\ only\ \n\ quarter/nickel/dime\ and\ ejects\ a\ gumball\ for\ every\ 50\ cents\ inserted\n\n\ @kruti\ thukral\n\ @1.0\n
 comment1.params=size
-comment1.target=MixedGumballMachine(int)
+comment1.target=HalfDollarGumballMachineAcceptsMixedCoins(int)
 comment2.params=coin
-comment2.target=void\ insertQuarter(int)
-comment3.params=
-comment3.target=void\ turnCrank()
-numComments=4
+comment2.target=boolean\ validateCoin(int)
+numComments=3
