@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=SoldState
-comment0.text=\n\ Below\ class\ is\ a\ state\ for\ a\ gumball\ machine\ when\ the\ crank\ is\ turned\ and\ the\ gumball\ is\ about\ to\ be\ dispensed\n\n\ @Kruti\ Thukral\n
+comment0.target=NoRequiredAmountState
+comment0.text=\n\ Below\ class\ is\ a\ state\ for\ a\ gumball\ machine\ when\ the\ required\ amount\ for\ the\ gumball\ is\ not\ inserted\n\n\ @Kruti\ Thukral\n
 comment1.params=gumballMachine
-comment1.target=SoldState(GumballMachine)
+comment1.target=NoRequiredAmountState(GumballMachine)
 comment2.params=coin
 comment2.target=void\ insertCoin(int)
 comment3.params=

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HalfDollarGumballMachineAcceptsMixedCoins
+comment0.text=\n\ Below\ class\ is\ a\ type\ of\ gumball\ machine\ which\ accepts\ only\n\ quarter/nickel/dime\ and\ ejects\ a\ gumball\ for\ every\ 50\ cents\ inserted\n\n\ @kruti\ thukral\n\ @1.0\n
+comment1.params=size
+comment1.target=HalfDollarGumballMachineAcceptsMixedCoins(int)
+comment2.params=coin
+comment2.target=boolean\ validateCoin(int)
+comment2.text=function\ to\ validate\ acceptable\ coin\ for\ the\ gumball\ machine
+numComments=3

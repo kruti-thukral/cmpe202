@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HalfDollarGumballMachine
+comment0.text=\n\ Below\ class\ is\ an\ abstract\ class\ for\ a\ gumball\ machine\ which\ ejects\ a\ gumball\ for\ every\ 50\ cents\n\n\ @Kruti\ Thukral\n
+comment1.params=size
+comment1.target=HalfDollarGumballMachine(int)
+comment2.params=
+comment2.target=int\ getMinAmount()
+comment2.text=getter\ function\ to\ retrieve\ the\ minimum\ amount\ required\ for\ a\ gumball
+numComments=3
