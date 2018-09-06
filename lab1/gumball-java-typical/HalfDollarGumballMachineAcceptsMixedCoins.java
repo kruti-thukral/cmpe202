@@ -15,6 +15,7 @@ public class HalfDollarGumballMachineAcceptsMixedCoins extends HalfDollarGumball
         System.out.println("Creating Half Dollar Gumball Machine . Accepts quarter/nickel/dime");
     }
     
+    /* function to validate acceptable coin for the gumball machine*/
      public boolean validateCoin(int coin) {
         return  (( coin == 25 ||  coin == 5 || coin == 10)?true:false);
     }

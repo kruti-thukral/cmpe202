@@ -5,4 +5,5 @@ comment1.params=size
 comment1.target=HalfDollarGumballMachineAcceptsQuarters(int)
 comment2.params=coin
 comment2.target=boolean\ validateCoin(int)
+comment2.text=function\ to\ validate\ acceptable\ coin\ for\ the\ gumball\ machine
 numComments=3

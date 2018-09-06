@@ -13,7 +13,8 @@ public class HalfDollarGumballMachineAcceptsQuarters extends HalfDollarGumballMa
         super(size); // call base class constructor for basic initialisation
         System.out.println("Creating Half Dollar Gumball Machine. Accepts only quarters");
     }
-
+    
+    /* function to validate acceptable coin for the gumball machine*/
     public boolean validateCoin(int coin) {
         return  ( coin == 25 ?true:false);
     }

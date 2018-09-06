@@ -9,7 +9,13 @@ abstract class GumballMachine
         // initialise instance variables
         this.num_gumballs = size;
     }
-
+    
+    
+    /*abstract functions which are implemented by the derived classes*/
+    abstract int getMinAmount();
+    abstract boolean validateCoin(int coin);
+    
+    /* below function is invoked when a coin is inserted in the machine*/
     public void insertQuarter(int coin)
     {
        if ( validateCoin(coin) ) {
@@ -20,29 +26,32 @@ abstract class GumballMachine
             System.out.println( "Coin inserted is not of accepted type" ) ;
     }
     
-   
-    public void decrementAmount(int amount ) {
-        this.sum = this.sum - amount;
-    }
-    
-    public int getAmountInserted() {
-        return sum;
-    }
-    
+    /* below function is a helper function for incrementing amount inserted in the gumball machine*/
     public void incrementAmount(int amount ) {
         this.sum = this.sum + amount;
     }
     
-    abstract int getMinAmount();
-    abstract boolean validateCoin(int coin);
+    /* below function is a helper function for decrementing amount inserted after a gumball is ejected*/
+    public void decrementAmount(int amount ) {
+        this.sum = this.sum - amount;
+    }
+    
+    /* getter function to retrieve the amount inserted in the gumball machine*/
+    public int getAmountInserted() {
+        return sum;
+    }
+    
     
     public void reset() {
         sum = 0;
     }
     
+    /* function to validate required anount for a gumball to be ejected from the machine*/
     public boolean validateAmount() {
         return (getAmountInserted() / getMinAmount() > 0?true:false);
     }
+    
+    /* function invoked when crank is turned. Ejects a gumball if required amount is inserted in the machine*/
     public void turnCrank()
     {
         System.out.println( "Crank turned" ) ;

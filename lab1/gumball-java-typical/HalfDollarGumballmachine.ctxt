@@ -5,4 +5,5 @@ comment1.params=size
 comment1.target=HalfDollarGumballMachine(int)
 comment2.params=
 comment2.target=int\ getMinAmount()
+comment2.text=getter\ function\ to\ retrieve\ the\ minimum\ amount\ required\ for\ a\ gumball
 numComments=3

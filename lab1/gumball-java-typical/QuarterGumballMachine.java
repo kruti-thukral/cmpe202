@@ -13,11 +13,13 @@ public class QuarterGumballMachine extends GumballMachine
         super(size);
         System.out.println("Creating Quarter Gumball Machine. Accepts only quarters");
     }
-
+    
+    /* function to validate acceptable coin for the gumball machine*/
     public boolean validateCoin(int coin) {
         return  ( coin == 25 ?true:false);
     }
     
+    /* getter function to retrieve the minimum amount required for a gumball*/
     public int getMinAmount() {
         return 25;
     }
