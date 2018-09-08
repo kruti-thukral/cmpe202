@@ -1,4 +1,9 @@
-
+/**
+ * Below class is the base abstract gumball machine which which is implemented by specific machine types
+ *
+ * @kruti thukral
+ * @1.0
+ */
 import java.util.Stack;
 abstract class GumballMachine {
  
@@ -12,6 +17,9 @@ abstract class GumballMachine {
     private int sum = 0; // variable which keeps track of amount inserted 
     //private Stack<Integer> stackOfCoins = new Stack<>(); // will be required if eject coin ejects only the last coin in future, in 
     // which case we would need to keep track of last coin
+    public static final int QUARTER = 25;
+    public static final int NICKEL = 5;
+    public static final int DIME = 10;
  
     public GumballMachine(int numberGumballs) {
         soldOutState = new SoldOutState(this);

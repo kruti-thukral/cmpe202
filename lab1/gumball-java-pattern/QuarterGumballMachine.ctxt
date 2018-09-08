@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=QuarterGumballMachine
-comment0.text=\n\ Write\ a\ description\ of\ class\ QuarterGumballMachine\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Below\ class\ is\ a\ type\ of\ gumball\ machine\ which\ accepts\ only\ \n\ quarters\ and\ ejects\ a\ gumball\ for\ every\ quarter\ inserted\n\n\ @kruti\ thukral\n\ @1.0\n
 comment1.params=size
 comment1.target=QuarterGumballMachine(int)
 comment2.params=coin

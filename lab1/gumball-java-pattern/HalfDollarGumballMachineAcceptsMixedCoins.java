@@ -16,7 +16,7 @@ public class HalfDollarGumballMachineAcceptsMixedCoins extends HalfDollarGumball
 
     /* function to validate acceptable coin for the gumball machine*/
      public boolean validateCoin(int coin) {
-        return  (( coin == 25 ||  coin == 5 || coin == 10)?true:false);
+        return  (( coin == QUARTER ||  coin == NICKEL || coin == DIME)?true:false);
     }
 
 

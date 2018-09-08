@@ -1,12 +1,14 @@
 
 /**
- * Write a description of class QuarterGumballMachine here.
+ * Below class is a type of gumball machine which accepts only 
+ * quarters and ejects a gumball for every quarter inserted
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @kruti thukral
+ * @1.0
  */
 public class QuarterGumballMachine extends GumballMachine
 {
+    public static final int MIN_AMOUNT = 25;
     public QuarterGumballMachine( int size )
     {
         super(size);
@@ -15,12 +17,12 @@ public class QuarterGumballMachine extends GumballMachine
 
     /* function to validate acceptable coin for the gumball machine*/
     public boolean validateCoin(int coin) {
-        return  ( coin == 25 ?true:false);
+        return  ( coin == QUARTER ?true:false);
     }
 
     /* getter function to retrieve the minimum amount required for a gumball*/
     public int getMinAmount() {
-        return 25;
+        return MIN_AMOUNT;
     }
 
 }

@@ -11,8 +11,6 @@ public class Main {
         gumballMachine.insertCoin(25);
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
-
         gumballMachine.insertCoin(25);
         gumballMachine.turnCrank();
         gumballMachine.insertCoin(25);
@@ -28,7 +26,7 @@ public class Main {
         gumballMachine.insertCoin(25);
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
+        
 
         gumballMachine.insertCoin(25);
         gumballMachine.turnCrank();
@@ -49,7 +47,7 @@ public class Main {
         gumballMachine.insertCoin(25);
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
+        
 
         gumballMachine.insertCoin(5);
         gumballMachine.turnCrank();
