@@ -6,13 +6,14 @@
  */
 abstract class HalfDollarGumballMachine extends GumballMachine
 {
-   public HalfDollarGumballMachine( int size )
+    public static final int MIN_AMOUNT = 50;
+    public HalfDollarGumballMachine( int size )
     {
         super(size); // call base class constructor for basic initialisation
     }
     
     /* getter function to retrieve the minimum amount required for a gumball*/
     public int getMinAmount() {
-        return 50;
+        return MIN_AMOUNT;
     }
 }

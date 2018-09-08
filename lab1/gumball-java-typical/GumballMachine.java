@@ -1,9 +1,19 @@
+
+/**
+ * Below class is the base abstract gumball machine which which is implemented by specific machine types
+ *
+ * @kruti thukral
+ * @1.0
+ */
+
 abstract class GumballMachine
 {
 
     private int num_gumballs;
     private int sum = 0; // variable that keeps track of the amount inserted in the machine
-
+    public static final int QUARTER = 25;
+    public static final int NICKEL = 5;
+    public static final int DIME = 10;
     public GumballMachine( int size )
     {
         // initialise instance variables
@@ -16,7 +26,7 @@ abstract class GumballMachine
     abstract boolean validateCoin(int coin);
     
     /* below function is invoked when a coin is inserted in the machine*/
-    public void insertQuarter(int coin)
+    public void insertCoin(int coin)
     {
        if ( validateCoin(coin) ) {
             incrementAmount(coin); // Increment amount inserted accordingly

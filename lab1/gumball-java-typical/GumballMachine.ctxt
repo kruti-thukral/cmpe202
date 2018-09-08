@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=GumballMachine
+comment0.text=\n\ Below\ class\ is\ the\ base\ abstract\ gumball\ machine\ which\ which\ is\ implemented\ by\ specific\ machine\ types\n\n\ @kruti\ thukral\n\ @1.0\n
 comment1.params=size
 comment1.target=GumballMachine(int)
 comment10.params=
@@ -11,7 +12,7 @@ comment2.text=abstract\ functions\ which\ are\ implemented\ by\ the\ derived\ cl
 comment3.params=coin
 comment3.target=boolean\ validateCoin(int)
 comment4.params=coin
-comment4.target=void\ insertQuarter(int)
+comment4.target=void\ insertCoin(int)
 comment4.text=below\ function\ is\ invoked\ when\ a\ coin\ is\ inserted\ in\ the\ machine
 comment5.params=amount
 comment5.target=void\ incrementAmount(int)

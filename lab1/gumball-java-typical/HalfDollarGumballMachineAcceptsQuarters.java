@@ -16,7 +16,7 @@ public class HalfDollarGumballMachineAcceptsQuarters extends HalfDollarGumballMa
     
     /* function to validate acceptable coin for the gumball machine*/
     public boolean validateCoin(int coin) {
-        return  ( coin == 25 ?true:false);
+        return  ( coin == QUARTER ?true:false);
     }
     
 
