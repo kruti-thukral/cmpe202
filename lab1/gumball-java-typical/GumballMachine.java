@@ -73,8 +73,8 @@ abstract class GumballMachine
             {
                 
                 num_gumballs-- ;// decrement gumball count
-                decrementAmount(getMinAmount());// decrement amount inserted accordingly
-                //reset();
+                //decrementAmount(getMinAmount());// decrement amount inserted accordingly
+                reset();
                 System.out.println( "Gumball Ejected!" ) ;
             }
             else // error when machine is out of gumballs
