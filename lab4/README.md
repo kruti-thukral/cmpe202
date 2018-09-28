@@ -8,7 +8,8 @@ Number of people in party
 
 Does: Request for a table in restaurant
 Confirm request
-Leave the wait list
+Leave the restaurant
+Receive message from restaurant
 
 Collaborators: Restaurant
 
@@ -22,21 +23,23 @@ Does: Accept customer's request for a table
 add customer to wait queue
 send message to customer
 remove customer from wait queue
-Allocate table to customer
+Allocate table for a customer
 Deallocate table to customer
+Scan Wait List
 
-Collaborators: Availaibility
+Collaborators: Resource,
+Customer
 
-3)Class Name : Availaibility
+3)Class Name : Resource
+Subclass: Full,
+Empty
 
-Knows: List of allocated tables
-List of free tables
+Knows: List of allocated resources (tables)
+List of free resources (tables)
 
-Does: Add table to allocated list
-Add table to free list
-Remove table from allocated list
-Remove table from free list
-find matching table 
+Does: IncrementResource
+DecrementResource
+find matching resource 
 
 Collaborators: Restaurant,
 Table
@@ -44,19 +47,17 @@ Table
 4)Class Name : Table
 
 Knows: 
-current state - occupied, free, in process
 id 
 capacity 
 
 Does: Provides id 
 Provides capacity details
-Provides current state information
 
 Collaborators: None
 
+I choose the State pattern in my design as depending on the state, whether all tables are full or some tables are unoccupied , restaurant will behave in accordance.
 
-I choose the State pattern in my design as depending on the state whether tables are full or tables are empty , restaurant will behave in accordance with its internal state.
-
-In ny design, following classes play the role of the context and the state
+In my design, following classes play the role of the context and the state
 Context - Restaurant
-State - Availaibility
+State - Resource
+Concrete State - Full, Empty
