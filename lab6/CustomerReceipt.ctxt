@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CustomerReceipt
+comment0.text=\n\ Write\ a\ description\ of\ class\ CustomerReceipt\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=CustomerReceipt()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ CustomerReceipt\n
+comment2.params=c
+comment2.target=void\ displayOrder(Composite)
+numComments=3
