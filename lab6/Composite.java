@@ -81,10 +81,8 @@ public class Composite implements Component {
     }
     
     public void printReceipt() {
-        DecimalFormat fmt = new DecimalFormat("0.00");
         printDescription();
-        Double totalPrice = getPrice();
-        System.out.println("\n   Sub.Total: "+ fmt.format(totalPrice));
+        strategy.displayPrice(this);
     }
 }
  

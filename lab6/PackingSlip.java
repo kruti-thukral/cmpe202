@@ -20,13 +20,17 @@ public class PackingSlip implements Strategy
     public void displayOrder(Leaf c){
         
             
-        System.out.println( c.getDescription() ) ;
+        System.out.println( "1 " + c.getDescription() ) ;
+    }
+
+    public void displayPrice(Composite c) {
+        System.out.println( "") ;
     }
     
     public void displayOrder(Composite c){
         
             
-        System.out.println( c.getDescription() ) ;
+        System.out.println( "1 " + c.getDescription() ) ;
 
         for (Component obj  : c.components)
         {

@@ -21,20 +21,23 @@ public class CustomerReceipt implements Strategy
     
     
     public void displayOrder(Leaf c){
-        DecimalFormat fmt = new DecimalFormat("0.00");
         String displayString = c.getDescription();
         if (c.getPrice() > 0)
-            displayString = displayString + " " + String.valueOf(c.getPrice());  
+            displayString = "1 " + displayString + " " + String.valueOf(c.getPrice());  
             
         System.out.println( displayString ) ;
 
     }
-    
+    public void displayPrice(Composite c) {
+        DecimalFormat fmt = new DecimalFormat("0.00");
+         Double totalPrice = c.getPrice();
+       System.out.println("\n   Sub.Total: "+ fmt.format(totalPrice));
+    }
     public void displayOrder(Composite c){
         DecimalFormat fmt = new DecimalFormat("0.00");
         String displayString = c.getDescription();
         if (c.getPrice() > 0)
-            displayString = displayString + " " + String.valueOf(c.getPrice());  
+            displayString = "1 " + displayString + " " + String.valueOf(c.getPrice());  
             
         System.out.println( displayString ) ;
 
