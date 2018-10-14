@@ -1,10 +1,8 @@
 The lab can be tested as below :
-For compiling execute below:
-javac Five_Guys.java 
+For compiling execute below: javac Five_Guys.java 
 
-For running code, execute below
-java Five_Guys
-
+For running code, execute: java Five_Guys
+```
 Both the receipts would be displayed as below 
 Customer Receipt
 Order Details
@@ -28,3 +26,4 @@ Tomato
 LTL CAJ 2.79
 
    Sub.Total: 8.38
+```
