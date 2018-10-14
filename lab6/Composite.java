@@ -27,10 +27,11 @@ public class Composite implements Component {
 
     public void printDescription() {
 
+        String displayString = description;
         if (price > 0)
-            description = description + " " + String.valueOf(price);
-
-        System.out.println( description );
+            displayString = displayString + " " + String.valueOf(price);  
+            
+        System.out.println( displayString ) ;
 
         for (Component obj  : components)
         {
@@ -72,6 +73,13 @@ public class Composite implements Component {
      
     public String getDescription(){
         return description;
+    }
+    
+    public void printReceipt() {
+        DecimalFormat fmt = new DecimalFormat("0.00");
+        printDescription();
+        Double totalPrice = getPrice();
+        System.out.println("\n   Sub.Total: "+ fmt.format(totalPrice));
     }
 }
  

@@ -19,11 +19,11 @@ public class CustomBurger extends Composite
     
     public void printDescription(){
         DecimalFormat fmt = new DecimalFormat("0.00");
-        
+        String displayString = description;
         if (price > 0)
-            description = description + " " + String.valueOf(price);  
+            displayString = displayString + " " + String.valueOf(price);  
             
-        System.out.println( description ) ;
+        System.out.println( displayString ) ;
         
         strategy.displayOrder(this);
         

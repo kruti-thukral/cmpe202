@@ -24,10 +24,11 @@ public class Leaf implements Component {
     public void printDescription() {
        
 
+        String displayString = description;
         if (price > 0)
-            description = description + " " + String.valueOf(price);  
+            displayString = displayString + " " + String.valueOf(price);  
             
-        System.out.println( description ) ;
+        System.out.println( displayString ) ;
     
 }
     

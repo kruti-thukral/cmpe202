@@ -30,8 +30,6 @@ public class PackingSlip implements Strategy
         {
             String placement = obj.getCategory();
             if (placement.equals("OM")) {
-               // String description = "->|" + obj.getDescription();
-               // obj.getDescription(); 
                 System.out.println( "->|" + obj.getDescription() ) ;
             }
         }
@@ -40,7 +38,6 @@ public class PackingSlip implements Strategy
         {
             String placement = obj.getCategory();
             if (placement.equals("BB")){
-               // String description = "{{{{" + obj.getDescription() + "}}}}"; 
                 System.out.println( "{{{{" + obj.getDescription() + "}}}}" ) ;
             }
             
