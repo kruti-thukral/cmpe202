@@ -18,13 +18,13 @@ public class Five_Guys {
         customBurger.addChild( new GrilledJalapeno() ) ;
         order.addChild( new Fries() ) ;
         Strategy s = new CustomerReceipt();
-        customBurger.changeStrategy(s);
+        order.changeStrategy(s);
         System.out.println("Customer Receipt");
         order.printReceipt();
        
         
         Strategy ps = new PackingSlip();
-        customBurger.changeStrategy(ps);
+        order.changeStrategy(ps);
         System.out.println("Packing Slip");
         order.printReceipt();
        

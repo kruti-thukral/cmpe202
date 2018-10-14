@@ -11,6 +11,11 @@ public class Composite implements Component {
     protected Strategy strategy;
     public void changeStrategy (Strategy s){
         strategy = s;
+        for (Component obj  : components)
+        {
+            obj.changeStrategy(s);
+            
+        }
     }
     
     public Composite ()
