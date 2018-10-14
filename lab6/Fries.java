@@ -18,7 +18,9 @@ public class Fries extends Leaf
        price = 2.79;
        setCategory("Item");
     }
-    
+    public void printDescription() {
+        strategy.displayOrder(this);
+    }
    
 
     

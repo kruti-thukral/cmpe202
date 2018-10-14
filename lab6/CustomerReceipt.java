@@ -1,4 +1,5 @@
 
+import java.text.DecimalFormat;
 /**
  * Write a description of class CustomerReceipt here.
  *
@@ -19,9 +20,24 @@ public class CustomerReceipt implements Strategy
 
     
     
-    
+    public void displayOrder(Leaf c){
+        DecimalFormat fmt = new DecimalFormat("0.00");
+        String displayString = c.getDescription();
+        if (c.getPrice() > 0)
+            displayString = displayString + " " + String.valueOf(c.getPrice());  
+            
+        System.out.println( displayString ) ;
+
+    }
     
     public void displayOrder(Composite c){
+        DecimalFormat fmt = new DecimalFormat("0.00");
+        String displayString = c.getDescription();
+        if (c.getPrice() > 0)
+            displayString = displayString + " " + String.valueOf(c.getPrice());  
+            
+        System.out.println( displayString ) ;
+
         for (Component obj  : c.components)
         {
             String placement = obj.getCategory();

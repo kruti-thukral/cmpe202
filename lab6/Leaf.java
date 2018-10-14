@@ -8,7 +8,7 @@ public class Leaf implements Component {
     private String description ;
     protected Double price ;
     protected String category;
-
+    protected Strategy strategy;
     
     public Leaf (String d) 
     {
@@ -18,12 +18,12 @@ public class Leaf implements Component {
     }
     
     public void changeStrategy (Strategy s){
-        //
+        strategy = s;
     }
     
     public void printDescription() {
        
-
+        
         String displayString = description;
         if (price > 0)
             displayString = displayString + " " + String.valueOf(price);  

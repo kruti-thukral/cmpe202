@@ -3,4 +3,6 @@ comment0.target=Strategy
 comment0.text=\n\ Write\ a\ description\ of\ interface\ Strategy\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=c
 comment1.target=void\ displayOrder(Composite)
-numComments=2
+comment2.params=c
+comment2.target=void\ displayOrder(Leaf)
+numComments=3

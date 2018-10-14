@@ -16,8 +16,18 @@ public class PackingSlip implements Strategy
     {
         
     }
+
+    public void displayOrder(Leaf c){
+        
+            
+        System.out.println( c.getDescription() ) ;
+    }
     
     public void displayOrder(Composite c){
+        
+            
+        System.out.println( c.getDescription() ) ;
+
         for (Component obj  : c.components)
         {
             String placement = obj.getCategory();
