@@ -8,7 +8,7 @@ public class Toppings extends LeafDecorator
         super(d) ;
     }
     
-    // 4 toppings free, extra +.75
+    // unlimited toppings
     public void setOptions( String[] options )
     {
         this.options = options ;

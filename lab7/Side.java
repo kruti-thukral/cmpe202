@@ -8,7 +8,7 @@ public class Side extends LeafDecorator
         super(d) ;
     }
     
-    // per extra side +1.50
+    // Every side 3.00
     public void setOptions( String[] options )
     {
         this.options = options ;

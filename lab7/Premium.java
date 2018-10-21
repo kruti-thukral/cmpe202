@@ -8,7 +8,7 @@ public class Premium extends LeafDecorator
         super(d) ;
     }
     
-    // premium topping +1.00
+    // price calculation depending on item
     public void setOptions( String[] options )
     {
         this.options = options ;

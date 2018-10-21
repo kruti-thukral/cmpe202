@@ -8,6 +8,7 @@ public class Burger extends LeafDecorator
         super(d) ;
     }
     
+    // Price calculation depending on item selected
     public void setOptions( String[] options )
     {
         this.options = options ;

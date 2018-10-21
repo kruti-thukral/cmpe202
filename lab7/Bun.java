@@ -8,7 +8,7 @@ public class Bun extends LeafDecorator
         super(d) ;
     }
     
-    // per extra side +1.50
+    // No extra cost for bun type
     public void setOptions( String[] options )
     {
         this.options = options ;
