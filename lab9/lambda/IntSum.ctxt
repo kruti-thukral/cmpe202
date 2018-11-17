@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=IntSum
+comment0.text=\n\ Write\ a\ description\ of\ class\ IntSum\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=IntSum()
+comment2.params=n\ m
+comment2.target=java.lang.Integer\ compute(java.lang.Integer,\ java.lang.Integer)
+numComments=3
