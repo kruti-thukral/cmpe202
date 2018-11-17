@@ -1,0 +1,2 @@
+##Summary
+## In the lambda implementation, we retain our Strategy interface, but we do not create different implementation of the interface, instead we make use of lambda expressions to create different implementations of the strategy.From the implemented lambda example, we can see that using Lambda expressions helps in reducing lot of boilerplate code to achieve more concise code.
