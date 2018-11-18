@@ -1,6 +1,6 @@
-package patterns;
+ 
 /**
- * Write a description of class IntDifference here.
+ * class IntDifference which computes the difference
  *
  * @author (your name)
  * @version (a version number or a date)

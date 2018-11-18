@@ -1,6 +1,6 @@
-package patterns;
+ 
 /**
- * Write a description of interface Computation here.
+ * Computation interface
  *
  * @author (your name)
  * @version (a version number or a date)
@@ -8,10 +8,12 @@ package patterns;
 public interface Computation<T>
 {
     /**
-     * An example of a method header - replace this comment with your own
+     * Compute method which would be overridden by all the classes 
+     * which implement this interface
      *
-     * @param  y a sample parameter for a method
-     * @return   the result produced by sampleMethod
+     * @param  n first parameter for the method
+     * @param  y second parameter for the method
+     * @return   the result produced by the method
      */
     public T compute(T n, T m);
 }

@@ -1,10 +1,12 @@
-package patterns;
+ 
 
 
 public class StrategyPattern {
 
     public static void main(String[] args) {
     
+    // Depending on the conncrete strategy class, appropriate 
+    // compute method is called
     Computation<Integer> currentStrategy = new IntSum();
     System.out.println(currentStrategy.compute(10, 4));
 

@@ -1,8 +1,8 @@
-package patterns;
+ 
 
 
 /**
- * Write a description of class IntProduct here.
+ * class IntProduct which computes the product
  *
  * @author (your name)
  * @version (a version number or a date)

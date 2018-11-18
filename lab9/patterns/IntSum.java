@@ -1,6 +1,6 @@
-package patterns;
+ 
 
-
+//class IntSum which computes the sum
 class IntSum implements Computation<Integer> {
 
   @Override

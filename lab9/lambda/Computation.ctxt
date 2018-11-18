@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Computation
-comment0.text=\n\ Write\ a\ description\ of\ interface\ Computation\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Computation\ interface\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=n\ m
 comment1.target=java.lang.Object\ compute(java.lang.Object,\ java.lang.Object)
-comment1.text=\n\ An\ example\ of\ a\ method\ header\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ the\ result\ produced\ by\ sampleMethod\n
+comment1.text=\n\ Compute\ method\ which\ would\ be\ overridden\ by\ all\ the\ classes\ \n\ which\ implement\ this\ interface\n\n\ @param\ \ n\ first\ parameter\ for\ the\ method\n\ @param\ \ y\ second\ parameter\ for\ the\ method\n\ @return\ \ \ the\ result\ produced\ by\ the\ method\n
 numComments=2
